@@ -1,3 +1,3 @@
 # jeckel.github.io
 jeckelwebsite
-http://jeckel.github.io
+http://jeckel.github.io.github.io
