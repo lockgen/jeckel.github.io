@@ -1,0 +1,35 @@
+h1.classic1Header {
+    font-size:36px;
+    color:black;
+    font-family:'Helvetica';
+    font-weight:bold;
+    text-align:center;
+    font-style:italic;
+}
+p.lineBreak {
+    font-weight:bolder;
+    font-size:8px;
+    font-style:italic;
+    text-align:center;
+}
+p.classicText {
+    font-family:'Segoe UI';
+    text-align:justify;
+    text-indent:1cm;
+}
+p.one {
+    font-family:'Helvetica';
+}
+img.htmlandcss {
+    width: 425px;
+    height:350px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    
+}
+#htmlcssid:hover{
+    filter:drop-shadow(8px 8px 10px black);
+    width: 440px;
+    height:365;
+}
