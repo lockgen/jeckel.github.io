@@ -6,6 +6,14 @@ h1.classic1Header {
     text-align:center;
     font-style:italic;
 }
+h1.classic1Header:hover {
+    font-size:40px;
+    color:gray;
+    font-family:'Helvetica';
+    font-weight:bolder;
+    text-shadow: 2px 2px 4px black;
+
+}
 p.lineBreak {
     font-weight:bolder;
     font-size:8px;
@@ -19,6 +27,7 @@ p.classicText {
 }
 p.one {
     font-family:'Helvetica';
+    font-size:18px;
 }
 img.htmlandcss {
     width: 425px;
@@ -32,4 +41,39 @@ img.htmlandcss {
     filter:drop-shadow(8px 8px 10px black);
     width: 440px;
     height:365;
+}
+table {
+    font-family:'Helvetica';
+    border-collapse:collapse;
+    background-color:#868686;
+    
+}
+td, tr {
+    border:1px solid #000000;
+    padding: 8px;
+
+}
+tr:nth-child(even) {
+    background-color:#999999;
+}
+a.onehyperlinks {
+    color:black;
+}
+a.onehyperlinks:hover {
+    color:lightgray;
+    font-size:22px;
+    text-shadow:2px 2px 4px black;
+}
+#tftcrest {
+    display:block;
+    margin-right:auto;
+    height:250px;
+    width:250px;
+}
+#tftcrest:hover {
+    filter:drop-shadow(8px 8px 10px black);
+    margin-right:auto;
+    display:block;
+    height:275px;
+    width:275px; 
 }
