@@ -5,6 +5,7 @@ h1.classic1Header {
     font-weight:bold;
     text-align:center;
     font-style:italic;
+    transition:all 0.6s ease;
 }
 h1.classic1Header:hover {
     font-size:40px;
@@ -12,6 +13,7 @@ h1.classic1Header:hover {
     font-family:'Helvetica';
     font-weight:bolder;
     text-shadow: 2px 2px 4px black;
+    transform:scale(1.02);
 
 }
 p.lineBreak {
@@ -35,12 +37,14 @@ img.htmlandcss {
     margin-left:auto;
     margin-right:auto;
     display:block;
+    transition:all 0.6s ease;
     
 }
 #htmlcssid:hover{
     filter:drop-shadow(8px 8px 10px black);
     width: 440px;
     height:365;
+    transform:scale(1.050)
 }
 table {
     font-family:'Helvetica';
@@ -58,10 +62,11 @@ tr:nth-child(even) {
 }
 a.onehyperlinks {
     color:black;
+    transition:all 0.6s ease;
 }
 a.onehyperlinks:hover {
     color:lightgray;
-    font-size:22px;
+    transform:scale(1.102);
     text-shadow:2px 2px 4px black;
 }
 #tftcrest {
@@ -83,6 +88,7 @@ a.onehyperlinks:hover {
     display:block;
     margin-left:auto;
     margin-right:auto;
+    transition:all 0.6s ease;
 }
 #nuclearcheers:hover {
     filter:drop-shadow(8px 8px 10px black);
@@ -91,6 +97,7 @@ a.onehyperlinks:hover {
     display:block;
     margin-left:auto;
     margin-right:auto;
+    transform:scale(1.102)
 }
 #rights {
     text-align:center;
@@ -113,4 +120,9 @@ p.bottomBoxtxt:hover {
     font-weight:bold;
     color:#101010;
     
+}
+#musicTSFI {
+    position:relative;
+    left:800px;
+    bottom:10px;
 }
