@@ -125,4 +125,6 @@ p.bottomBoxtxt:hover {
     position:relative;
     left:800px;
     bottom:10px;
+    border-radius:10px;
+    background-color: #545454;
 }
